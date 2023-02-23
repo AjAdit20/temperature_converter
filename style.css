@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    height: 15vh;
+    width: 75vw;
+    background-color:black;
+    color: aqua;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 55vh;
+    width: 50vw;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    background-color: aqua;
+    color: black;
+}
+
+.one {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.two {
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 78px;
+    font-size: large;
+}
+
+.container2 {
+    background-color: blueviolet;
+    position: relative;
+    bottom: 45vh;
+    left: 60vw;
+    height: 55vh;
+    width: 25vw;
+}
+
+#convert-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 5vw;
+}
+
+#convert-btn:hover {
+    background-color: #0069d9;
+}
+
+#temp-output {
+    width: 150px;
+    height: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    top: 15vh;
+    left: 8vw;
+}
+
+#temp-input {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    left: 5vw;
+}
+
+#from-unit-select {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    left: 6vw;
+}
+
+#to-unit-select {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    left: 16vw;
+    bottom: 6vh;
+}
